@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sarah-tugas-array</title>
+</head>
+<body>
+    <!-- nomo1 -->
+    <section class="array">
+        <div class= "soal">
+            <h1> Nomor 1</h1>
+        </div>
+        <div class= "soal">
+            <p>Panjang data array :<span id="jumlahPekerjaanIT"></span></p>
+            <p>Pekerjaan Bidang IT : <span id="namaPekerjaanIT"></span></p>
+        </div>
+    </section>
+
+    <!-- nomo2 -->
+    <section class="array"> 
+        <div class="soal">
+            <h1>Nomor 2</h1>
+        </div>
+        <div class="soal">
+            <p>Full Team : <span id="fullTeam"></span></p>
+            <p> Team 1 : <span id="team1"></span></p>
+            <p> Team 2 : <span id="team2"></span></p>
+        </div>
+    </section>
+
+    <!-- nomor3 -->
+    <section class="array">
+       <div class="soal">
+           <h1> Nomor 3</h1>
+       </div> 
+       <div class="soal">
+           <p>Data array :<span id="firstArray"></span></p>
+           <p>Hasil dari array sebelumnya dengan perkalian 5 : <span id="newArray"></span></p>
+       </div>
+    </section>
+
+    <!-- nomor 4 -->
+    <section class="array">
+        <div class="soal">
+            <h1> Nomor 4</h1>
+        </div>
+        <div class="soal">
+            <p>Schedule Day 1 : <span id="scheduleDayOne"></span></p>
+            <p>Schedule Day 2 : <span id="scheduleDayTwo"></span></p>
+            <p>The same schedule : <span id="sameSchedule"></span></p>
+        </div>
+    </section>
+
+    <!-- nomor 5 -->
+    <section class="form">
+        <div class="soal">
+            <h1>Create Tweet</h1>
+        </div>
+        <div class="jawaban">
+            <div class="column">
+                <input type="text" id="words" class="tweets" placeholder="What's happening?">
+                <input type="button" onclick="uploadTweet()" value="Tweet">
+            </div>
+            <div class= "column">
+                <h2>Your Tweet : <span id="yourTweet"></span></h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- nomor 6 -->
+    <section class="form">
+        <div class="soal">
+            <h1> Registration</h1>
+        </div>
+        <div class="jawaban"> 
+            <div class="column">
+                <label> Username: <input type="text" id="usrnm"></label><br><br>
+                <label> Password: <input type="password" id="pwwd"></label><br><br>
+                <input type="button" onclick="showData()" value="Submit">
+            </div>
+            <div class="column">
+                <p1> List Registration, Username and password :  <span id="data"></span> </p1>
+            </div>
+        </div>
+    </section>
+
+    <script src="array.js"></script>
+</body>
+</html>

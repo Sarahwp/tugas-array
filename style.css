@@ -1,0 +1,35 @@
+html, body {
+    margin : 0;
+    padding: 0;
+}
+.array, .form{
+    background-color: #7272cf;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin : 20px 30px;
+    border: 10px solid #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.soal{
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    padding: 0 6px;
+}
+.form{
+    background-color:rgb(17, 17, 29);
+}
+.jawaban{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.column{
+    margin: 20px;
+}
+.tweets{
+    width: 30rem;
+    height:20rem;
+}
